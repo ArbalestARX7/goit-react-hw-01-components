@@ -22,9 +22,8 @@ export const Description = styled.div`
 export const Avatar = styled.img`
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  margin-bottom: 16px;
-  transition: all 400ms ease-in-out;`;
+  border-radius: 40%;
+  margin-bottom: 16px;`;
 
 export const ProfileName = styled.p`
   font-size: 24px;

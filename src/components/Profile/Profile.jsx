@@ -1,4 +1,5 @@
-import {Profile, Description, Avatar, ProfileName, ProfileTag, ProfileLocation, StatsList, StatsQuantity, StatsLabel} from "./Profile.styled";
+import PropTypes from "prop-types";
+import { Profile, Description, Avatar, ProfileName, ProfileTag, ProfileLocation, StatsList, StatsQuantity, StatsLabel } from "./Profile.styled";
 
 
 export const ProfileCard = ({ username, tag, location, avatar, stats }) => {
@@ -28,4 +29,16 @@ export const ProfileCard = ({ username, tag, location, avatar, stats }) => {
             </li>
         </StatsList>
 </Profile>
+}
+
+ProfileCard.propTypes = {
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    stats: PropTypes.exact({
+        followers: PropTypes.number.isRequired,
+        views: PropTypes.number.isRequired,
+        likes: PropTypes.number.isRequired,
+    }),
 }
