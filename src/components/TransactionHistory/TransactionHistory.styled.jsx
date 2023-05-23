@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const TransactionHistoryTable = styled.table`
   width: 600px;
@@ -7,7 +7,8 @@ export const TransactionHistoryTable = styled.table`
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   background-color: #fff;
-  margin-bottom: 25px`;
+  margin-bottom: 25px;
+`;
 
 export const TransactionHead = styled.th`
   text-align: center;
@@ -16,4 +17,5 @@ export const TransactionHead = styled.th`
   font-weight: bold;
   color: #fff;
   padding: 12px 15px;
-  border-bottom: 1px solid #ddd;`   
+  border-bottom: 1px solid #ddd;
+`;
