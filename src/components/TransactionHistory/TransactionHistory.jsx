@@ -3,7 +3,7 @@ import {
   TransactionHistoryTable,
   TransactionHead,
 } from './TransactionHistory.styled';
-import { TransactionItem } from './TransactionItem/TransactionItem';
+import { TransactionItem } from '../TransactionItem/TransactionItem';
 
 export const TransactionHistory = ({ items }) => {
   return (
